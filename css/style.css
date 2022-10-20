@@ -11,11 +11,28 @@ body{
     margin: 40px auto;
 }
 
-.ciao{
+.bold{
     font-weight: 800;
 }
 
 header, p{
     text-align: center;
     margin-bottom: 50px;
+}
+
+.card{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0,0,0);
+    color: rgb(255,255,255);
+
+}
+
+.card img{
+    height: 100%;
+    float: left;
+}
+
+div.info *{
+    margin: 5px;
 }
