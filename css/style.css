@@ -5,3 +5,17 @@
     border: 1px solid red;
     font-family: 'Fredoka', sans-serif;
 }
+
+body{
+    width: 70%;
+    margin: 40px auto;
+}
+
+.ciao{
+    font-weight: 800;
+}
+
+header, p{
+    text-align: center;
+    margin-bottom: 50px;
+}
