@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
     font-family: 'Fredoka', sans-serif;
+
 }
 
 body{
@@ -25,14 +25,31 @@ header, p{
     height: 100px;
     background-color: rgb(0,0,0);
     color: rgb(255,255,255);
+    
 
 }
 
 .card img{
     height: 100%;
     float: left;
+    margin-right: 10px;
 }
 
-div.info *{
-    margin: 5px;
+.card div{
+    height: calc( 100px / 3);
+    padding: 7px;
+}
+
+.job, a{
+    font-size: 14px;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+a{
+    color: rgb(52, 183, 234);
+    text-decoration: none;
 }
