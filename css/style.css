@@ -3,8 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fredoka', sans-serif;
-    
-
 }
 
 header, main{
@@ -12,8 +10,8 @@ header, main{
     margin: 40px auto;
 }
 
-.bold{
-    font-weight: 800;
+h1{
+    color: rgb(232, 54, 155)
 }
 
 header, p{
@@ -28,12 +26,11 @@ header, p{
     color: rgb(255,255,255);
     margin-bottom: 50px;
     float: left;
-    box-shadow: 1px 1px 1px 1px #888888;
+    box-shadow: 0px 0px 5px 0px #000000;
 }
 
 .card:not(.third){
     margin-right: 30px;
-    
 }
 
 
@@ -45,7 +42,7 @@ header, p{
 
 .card div{
     height: calc( 100px / 3);
-    padding: 7px;
+    
 }
 
 .job, a{
@@ -55,6 +52,10 @@ header, p{
 h2{
     font-size: 20px;
     font-weight: 800;
+}
+
+h2, .job{
+    padding-top: 10px;
 }
 
 a{
