@@ -10,6 +10,12 @@ header, main{
     margin: 40px auto;
 }
 
+main::after{
+    content: '';
+    clear: both;
+    display: table;
+
+}
 h1{
     color: rgb(232, 54, 155)
 }
@@ -19,6 +25,7 @@ header, p{
     margin-bottom: 50px;
 }
 
+/* inizio style card */
 .card{
     width: calc(1000px / 3 - 20px);
     height: 100px;
@@ -32,6 +39,7 @@ header, p{
 .card:not(.third){
     margin-right: 30px;
 }
+/* fine style card */
 
 
 .card img{
@@ -40,6 +48,7 @@ header, p{
     margin-right: 10px;
 }
 
+/* inzio style testo  */
 .card div{
     height: calc( 100px / 3);
     
